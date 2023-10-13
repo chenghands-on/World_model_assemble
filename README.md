@@ -51,12 +51,14 @@ So far, the following benchmarks can be used for testing.
 
 ## Results
 <p align="center">
-    <img width="20%" src="https://github.com/whatevermybaby/World_model_assemble/blob/main/dreamer_v2_pong.gif">
-    <img width="20%" src="https://github.com/whatevermybaby/World_model_assemble/blob/main/dreamer_v3_pong.gif">
-    <img width="40%" src="https://github.com/whatevermybaby/World_model_assemble/blob/main/dreamer_v2_walker.gif?raw=true">
-    <img width="40%" src="https://github.com/whatevermybaby/World_model_assemble/blob/main/dreamer_v3_walker.gif">
+    [atari_pong]<img width="40%" src="https://github.com/whatevermybaby/World_model_assemble/blob/main/dreamer_v2_pong.gif">
+    <img width="40%" src="https://github.com/whatevermybaby/World_model_assemble/blob/main/dreamer_v3_pong.gif">
 </p>
+<p align="center">
+    [dmc_walker_walk]<img width="40%" src="https://github.com/whatevermybaby/World_model_assemble/blob/main/dreamer_v2_walker.gif?raw=true">
+    <img width="40%" src="https://github.com/whatevermybaby/World_model_assemble/blob/main/dreamer_v3_walker.gif">
 
+</p>
 
 ## Acknowledgments
 This code is heavily inspired by the following works:

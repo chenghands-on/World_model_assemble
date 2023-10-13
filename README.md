@@ -5,7 +5,7 @@ Pytorch implementation of [Mastering Atari with Discrete World Models](https://a
 ## Comparision betwwen dreamer_v2 and dreamer_v3
 In [Mastering Atari with Discrete World Models](https://arxiv.org/abs/2010.02193), the author lists some main difference bewteen v2 and v3. We summarize our current realization situation here.
 
-                            | DreamerV2   | DreamerV3     |
+|                           | DreamerV2   | DreamerV3     |
 |-----------------------------------|-------------|---------------|
 | Symlog predictions                | ❌           | ✅             |
 | World model regularizer           | ❌           | Free_bits            |

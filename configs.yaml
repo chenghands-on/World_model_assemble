@@ -7,8 +7,8 @@ defaults:
   offline_evaldir: ''
   seed: 0
   deterministic_run: False
-  # steps: 1e6
-  steps: 5e5
+  steps: 1e6
+  # steps: 5e5
   parallel: False
   # eval_every: 1e4
   eval_every: 5e4
@@ -16,7 +16,7 @@ defaults:
   # log_every: 1e4
   log_every: 1e3
   reset_every: 0
-  device: 'cuda:1'
+  device: 'cuda:0'
   compile: True
   precision: 32
   debug: False
@@ -243,10 +243,10 @@ dreamer_v2:
   kl_balance: 0.5
   
   reward_decoder_categorical:
-  # reward_layers: 4
-  # cont_layers: 4
-  # value_layers: 4
-  # actor_layers: 4
+  reward_layers: 4
+  cont_layers: 4
+  value_layers: 4
+  actor_layers: 4
 
   # Training
   model_lr: 3.0e-4

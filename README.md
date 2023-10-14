@@ -52,8 +52,9 @@ So far, the following benchmarks can be used for testing.
 ## Results
 <p align="center">
     <img width="60%" src="https://github.com/whatevermybaby/World_model_assemble/blob/main/results/fig/dmc_walk_walker.jpg?raw=true">
-    <em>DMC_walker_walk</em>
 <br>
+    <em>DMC_walker_walk</em>
+
 </p>
 
 <p align="center">

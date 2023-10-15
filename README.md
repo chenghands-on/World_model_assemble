@@ -13,7 +13,7 @@ In [Mastering Atari with Discrete World Models](https://arxiv.org/abs/2010.02193
 | Activation                        | ELU           | SILU             |
 | LayerNorm                         | mlp-only           | mlp+cnn            |
 | MLP-layer                         | 4           | 2             |
-| RSSM-units                        | 1024           | 512             |
+| CNN-padded                        | valid-padded  | same-padded
 | Critic EMA regularizer            | ❌           | ✅             |
 | Replay buffer                     | ✅           | ✅             |
 | Hyperparameters                   | env-specific        | general           |
